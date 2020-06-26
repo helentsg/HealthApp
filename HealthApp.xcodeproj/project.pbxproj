@@ -13,6 +13,7 @@
 		C9EADCFA24A50BF700834508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EADCF824A50BF700834508 /* Main.storyboard */; };
 		C9EADCFC24A50BFD00834508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9EADCFB24A50BFD00834508 /* Assets.xcassets */; };
 		C9EADCFF24A50BFD00834508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9EADCFD24A50BFD00834508 /* LaunchScreen.storyboard */; };
+		C9EADD0724A50C8A00834508 /* CircleGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EADD0624A50C8A00834508 /* CircleGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C9EADCFB24A50BFD00834508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9EADCFE24A50BFD00834508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9EADD0024A50BFD00834508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9EADD0624A50C8A00834508 /* CircleGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				C9EADCF224A50BF700834508 /* AppDelegate.swift */,
 				C9EADCF424A50BF700834508 /* SceneDelegate.swift */,
-				C9EADCF624A50BF700834508 /* ViewController.swift */,
 				C9EADCF824A50BF700834508 /* Main.storyboard */,
+				C9EADD0624A50C8A00834508 /* CircleGraphView.swift */,
+				C9EADCF624A50BF700834508 /* ViewController.swift */,
 				C9EADCFB24A50BFD00834508 /* Assets.xcassets */,
 				C9EADCFD24A50BFD00834508 /* LaunchScreen.storyboard */,
 				C9EADD0024A50BFD00834508 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9EADCF724A50BF700834508 /* ViewController.swift in Sources */,
+				C9EADD0724A50C8A00834508 /* CircleGraphView.swift in Sources */,
 				C9EADCF324A50BF700834508 /* AppDelegate.swift in Sources */,
 				C9EADCF524A50BF700834508 /* SceneDelegate.swift in Sources */,
 			);
